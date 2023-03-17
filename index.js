@@ -1,9 +1,9 @@
 const sql = require('mssql');
 
 const config = {
-    user: 'username',
+    user: 'userName',
     password: 'password',
-    server: 'server name',
+    server: 'serverName',
     database: 'chatAppDB'
 }
 
@@ -13,7 +13,6 @@ sql.connect(config, (err) => {
     else 
         console.log('MSSQL database connected')
 })
-
 
 
 // const express = require('express')
