@@ -1,0 +1,14 @@
+{
+"mssql.connections": [
+    {
+        "server": "serverName",
+        "database": "chatAppDB",
+        "user": "username",
+        "password": "",
+        "port": 3000,
+        "options": {
+            "encrypt": true
+        }
+    }
+],
+}
